@@ -1,4 +1,4 @@
--- Siege of Niuzo Temple
+-- Siege of Niuzao Temple
 
 DELETE FROM `creature` WHERE `guid`=1000213;
 INSERT INTO `creature` (`guid`, `id`, `map`, `zoneId`, `areaId`, `spawnMask`, `phaseMask`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `MovementType`, `npcflag`, `npcflag2`, `unit_flags`, `unit_flags2`, `dynamicflags`, `isActive`, `protec_anti_doublet`) VALUES (1000213, 5646433, 1011, 6214, 6413, 262, 4294967295, 0, 0, 1547, 5108.79, 189.256, 0.280457, 7200, 0, 0, 393941, 0, 0, 0, 0, 0, 0, 0, 0, NULL);
